@@ -1,0 +1,56 @@
+/* Estilo general del contenedor de la calculadora */
+#calculadoraMenstrual {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+}
+
+/* Estilo para las etiquetas de los campos */
+#calculadoraMenstrual label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+/* Estilo para los campos de entrada */
+#calculadoraMenstrual input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón */
+#calculadoraMenstrual button {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#calculadoraMenstrual button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el área de resultado */
+#resultado {
+    background-color: #e7e7e7;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    width: 300px;
+    margin: 20px auto;
+}
+
